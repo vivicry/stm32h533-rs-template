@@ -1,0 +1,13 @@
+{
+    "rust-analyzer.cargo.allTargets": false,
+    "rust-analyzer.cargo.target": "thumbv8m.main-none-eabi",
+    "rust-analyzer.checkOnSave": true,
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.check.extraArgs": [
+        "--target",
+        "thumbv8m.main-none-eabi"
+    ],
+    "cortex-debug.stlinkPath": "todo",
+    "cortex-debug.armToolchainPath": "todo",
+    "cortex-debug.armToolchainPrefix": "todo",
+}
